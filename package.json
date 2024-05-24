@@ -1,0 +1,24 @@
+{
+  "name": "docker-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.21.3",
+    "tsx": "^4.4.0",
+    "typescript": "~5.4.0"
+  },
+  "dependencies": {
+    "crawlee": "^3.0.0",
+    "playwright": "*"
+  }
+}
